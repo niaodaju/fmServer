@@ -10,7 +10,7 @@ import fmDB  from "./db.js"
 
 
 const FMKEY="dsafadf232"
-const whitelist = ["http://localhost:3000"]
+const whitelist = ["http://localhost:3000","https://fmc4.onrender.com/"]
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || whitelist.indexOf(origin) !== -1) {
